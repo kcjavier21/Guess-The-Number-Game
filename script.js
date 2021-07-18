@@ -79,8 +79,8 @@ function getRandomNumber(){
   // *CODE GOES BELOW HERE *
   let randomNumber = Math.random();
   let wholeNumber = Math.round(randomNumber * 100);
-  //console.log(randomNumber);
-  //console.log(wholeNumber);
+  console.log(randomNumber);
+  console.log(wholeNumber);
 
   return wholeNumber;
 }
